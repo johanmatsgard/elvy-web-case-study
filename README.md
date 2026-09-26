@@ -4,7 +4,7 @@ Elvy's marketing website. The code lives in a private company repo, so this is a
 
 ## From Figma to code
 
-I started in Figma, first with the design system and then with mockups of the site built from it. That system was then translated into code as tokens (colors, type, spacing, radii, shadows) and components that pull from them, each with enough parameters that new pages can be put together without new styling.
+Made in Figma first: the design system, then mockups of the site built from it. That system was then translated into code as tokens (colors, type, spacing, radii, shadows) and components that pull from them, each with enough parameters that new pages can be put together without new styling.
 
 ## Styling is never invented
 
@@ -14,7 +14,7 @@ The design system page on the live site renders the actual components, so the do
 
 ## No CMS
 
-There's no admin panel. Content is edited by talking to an AI coding agent (I use Claude Code): you describe the change and drop in any images, and it edits the right file, uploads the images and opens a pull request with a preview link. Nothing goes live on its own. Once the preview has been reviewed and the checks pass, content changes ship automatically, usually within minutes.
+There's no admin panel. Content is edited by talking to an AI coding agent (for example Claude Code): you describe the change and drop in any images, and it edits the right file, uploads the images and opens a pull request with a preview link. Nothing goes live on its own. Once the preview has been reviewed and the checks pass, content changes ship automatically, usually within minutes.
 
 Since the site is plain code with strict rules, it isn't tied to one tool. When a better model comes out, it can start working on the site right away.
 
